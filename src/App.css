@@ -1,0 +1,47 @@
+/* Add styling for your page here */
+
+.App {
+ 
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  text-shadow: 0 1px 1px rgba;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.BakeryContainer  {
+    flex: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.BakeryItem {
+  width: 300px;
+  height: auto;
+  background-color: beige;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.BakeryImage {
+  max-width: 10vw;
+  max-height: 10vw;
+}
+
+.Cart{
+  flex: 25%;
+  float: left;
+}
